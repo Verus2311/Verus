@@ -1,0 +1,88 @@
+
+body{
+	background-color:#692323!important;
+
+
+	
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}
+
+--Contact Info--
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
